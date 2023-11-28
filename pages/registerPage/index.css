@@ -3,7 +3,7 @@
   width: 100%;
   min-height: 100vh;
   padding: 0 135px 0 0;
-  background: #fff;
+  background: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,6 +42,7 @@
 }
 .shopping-container .form-container form label {
   width: 100%;
+  border-bottom: 1px solid black;
 }
 .shopping-container .form-container form label input {
   width: 100%;
@@ -52,32 +53,14 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-}
-.shopping-container .form-container form label hr {
-  width: 100%;
+  outline: none;
 }
 .shopping-container .form-container form .password {
   width: 100%;
-  position: relative;
+  display: flex;
 }
-.shopping-container .form-container form .password button {
-  color: var(--Text2, #000);
-  font-family: Poppins;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-}
-.shopping-container .form-container form .password .bi-eye {
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-.shopping-container .form-container form .password .bi-eye-slash {
+.shopping-container .form-container form .password .show-btn {
   display: none;
-  position: absolute;
-  right: 0;
-  top: 0;
 }
 .shopping-container .form-container form .btn-1 {
   width: 100%;
@@ -92,4 +75,4 @@
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-}/*# sourceMappingURL=index.css.map */
+}
