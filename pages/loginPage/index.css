@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600;700;800;900&family=Inter:wght@400;500;600;700&family=Laila:wght@700&family=Open+Sans:wght@400;600;700;800&family=Poppins:wght@400;500;600;700;800;900&family=Roboto+Slab:wght@700&family=Roboto:wght@400;700;900&display=swap");
+.login-container {
+  padding: 0 135px 0 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login-container img {
+  width: 805px;
+  height: 781px;
+}
+.login-container .form-container {
+  width: 371px;
+}
+.login-container .form-container h1 {
+  color: var(--Text2, #000);
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 1.44px;
+}
+.login-container .form-container h2 {
+  margin-top: 24px;
+  color: var(--Text2, #000);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.login-container .form-container form {
+  margin-top: 48px;
+  display: flex;
+  flex-direction: column;
+}
+.login-container .form-container form label {
+  margin-bottom: 40px;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+.login-container .form-container form label button {
+  border: none;
+  background: none;
+}
+.login-container .form-container form label .btn-1 {
+  display: none;
+}
+.login-container .form-container form label input {
+  width: 100%;
+  border: none;
+  color: var(--Text2, #000);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  outline: none;
+}
+.login-container .form-container form .login {
+  display: flex;
+  margin: auto;
+  padding: 16px 48px;
+  border-radius: 4px;
+  background: var(--Button2, #db4444);
+  border: none;
+}
+.login-container .form-container form .login a {
+  color: var(--Text, #fafafa);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-decoration: none;
+}/*# sourceMappingURL=index.css.map */
