@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600;700;800;900&family=Inter:wght@400;500;600;700&family=Laila:wght@700&family=Open+Sans:wght@400;600;700;800&family=Poppins:wght@400;500;600;700;800;900&family=Roboto+Slab:wght@700&family=Roboto:wght@400;700;900&display=swap");
+.shopping-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 0 135px 0 0;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.shopping-container .image-1 {
+  width: 805px;
+  height: 781px;
+}
+.shopping-container .form-container {
+  width: 371px;
+}
+.shopping-container .form-container h1 {
+  margin-bottom: 24px;
+  color: var(--Text2, #000);
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 1.44px;
+}
+.shopping-container .form-container h2 {
+  margin-bottom: 48px;
+  color: var(--Text2, #000);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.shopping-container .form-container form {
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+.shopping-container .form-container form label {
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+.shopping-container .form-container form label input {
+  width: 100%;
+  border: none;
+  color: var(--Text2, #000);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  outline: none;
+}
+.shopping-container .form-container form .password {
+  width: 100%;
+  display: flex;
+}
+.shopping-container .form-container form .password .show-btn {
+  display: none;
+}
+.shopping-container .form-container form .btn-1 {
+  width: 100%;
+  padding: 16px 122px;
+  border-radius: 4px;
+  background: var(--Button2, #db4444);
+  cursor: pointer;
+}
+.shopping-container .form-container form .btn-1 a {
+  color: var(--Text, #fafafa);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.shopping-container .form-container .btn-2 {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  gap: 16px;
+}
+.shopping-container .form-container .btn-2 a {
+  color: var(--Text2, #000);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.shopping-container .form-container .btn-2 a:last-child {
+  font-weight: 500;
+  border-bottom: 1px solid black;
+}/*# sourceMappingURL=index_20231202115332.css.map */
