@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;600;700;800;900&family=Inter:wght@400;500;600;700&family=Laila:wght@700&family=Open+Sans:wght@400;600;700;800&family=Poppins:wght@400;500;600;700;800;900&family=Roboto+Slab:wght@700&family=Roboto:wght@400;700;900&display=swap");
+.shopping-container {
+  width: 100%;
+  min-height: 100vh;
+}
+.shopping-container .top-container {
+  padding: 16px 56px 17px 56px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: space-between;
+}
+.shopping-container .top-container .image-avira {
+  width: 80px;
+  height: 68px;
+}
+.shopping-container .top-container nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.shopping-container .top-container nav ul {
+  display: flex;
+  align-items: center;
+}
+.shopping-container .top-container nav li {
+  list-style-type: none;
+}
+.shopping-container .top-container nav li a {
+  text-decoration: none;
+}
+.shopping-container .top-container nav .ul-1 {
+  margin-right: 143px;
+}
+.shopping-container .top-container nav .ul-1 li {
+  margin-left: 40px;
+}
+.shopping-container .top-container nav .ul-1 li a {
+  color: var(--text-color-primary, #2d2d2d);
+  text-align: right;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.shopping-container .top-container nav .ul-1 li:first-child a {
+  color: var(--text-color-accent, #db6b97);
+  text-align: right;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.shopping-container .top-container nav .ul-2 li {
+  display: flex;
+  align-items: center;
+  margin-right: 32px;
+}
+.shopping-container .top-container nav .ul-2 li a {
+  margin-left: 8px;
+  color: var(--text-color-accent, #db6b97);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.shopping-container .top-container nav .ul-2 li img {
+  width: 20px;
+  height: 20px;
+}
+.shopping-container .top-container nav .ul-2 li p {
+  margin-left: 8px;
+  color: var(--text-color-accent, #db6b97);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.shopping-container .box-container {
+  width: 100%;
+  padding: 64px;
+  display: flex;
+}
+.shopping-container .box-container .box-1 {
+  width: 512px;
+  height: 686px;
+  padding: 24px 0 0 24px;
+  background-image: url(../../assets/image/image\ 1.svg);
+  background-repeat: no-repeat;
+}
+.shopping-container .box-container .box-1 .p-1 {
+  color: var(--text-color-accent, #db6b97);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.shopping-container .box-container .box-1 div {
+  display: flex;
+  align-items: center;
+}
+.shopping-container .box-container .box-1 div .p-2 {
+  color: var(--text-color-primary, #2d2d2d);
+  font-family: Poppins;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+.shopping-container .box-container .box-1 div img {
+  margin-left: 16px;
+  width: 32px;
+  height: 32px;
+}
+.shopping-container .box-container .box-2 {
+  width: 776px;
+  margin-left: 32px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.shopping-container .box-container .box-2 .image-1 {
+  height: 294px;
+  background-image: url(../../assets/image/image\ 6.svg);
+  background-repeat: no-repeat;
+}
+.shopping-container .box-container .box-2 .image-1 .p-1 {
+  color: var(--text-color-accent, #db6b97);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.shopping-container .box-container .box-2 .image-1 div {
+  display: flex;
+  align-items: center;
+}
+.shopping-container .box-container .box-2 .image-1 div .p-2 {
+  color: var(--text-color-primary, #2d2d2d);
+  font-family: Poppins;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+.shopping-container .box-container .box-2 .image-1 div img {
+  margin-left: 16px;
+  width: 32px;
+  height: 32px;
+}
+.shopping-container .box-container .box-2 .image-2 {
+  width: 372px;
+  height: 360px;
+  padding: 24px 0 0 24px;
+  background-image: url(../../assets/image/image\ 10.svg);
+  background-repeat: no-repeat;
+}
+.shopping-container .box-container .box-2 .image-3 {
+  width: 372px;
+  height: 360px;
+  padding: 24px 0 0 24px;
+  background-image: url(../../assets/image/image\ 9.svg);
+  background-repeat: no-repeat;
+}
