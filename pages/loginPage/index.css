@@ -67,8 +67,6 @@
   border-radius: 4px;
   background: var(--Button2, #db4444);
   border: none;
-}
-.login-container .form-container form .login a {
   color: var(--Text, #fafafa);
   font-family: Poppins;
   font-size: 16px;

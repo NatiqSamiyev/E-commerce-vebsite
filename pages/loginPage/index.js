@@ -4,7 +4,8 @@ let inputType = document.querySelector('input[type="password"]');
 let btn1 = document.querySelector(".btn-1");
 let btn2 = document.querySelector(".btn-2");
 let loginBtn = document.querySelector(".login");
-let email=document.querySelector('.email-input')
+let emailinput=document.querySelector('.email-input')
+let passwordInput=querySelector('.password')
 
 btn2.addEventListener("click", checkBtn2);
 function checkBtn2() {
@@ -23,39 +24,60 @@ function checkBtn1() {
 form.addEventListener("submit", submitForm);
 function submitForm(a) {
   a.preventDefault();
-  createUser()
+  // createUser()
+  getDatabase()
  
 }
 
-function createUser() {
-    let user={
-        id:Date.now(),
-        email:email.value,
-        password:inputType.value,
-    };
-    let database = getDatabase();
-    database.push(user)
-    localStorage.setItem('user',JSON.stringify(database))
-   
-}
-
-
 function getDatabase() {
-    let database=JSON.parse(localStorage.getItem(database))
-    if (database) {
-        return database; 
-    }
-    else{
-        createDatabase();
-        let database=JSON.parse(localStorage.getItem(database))
-        return database;
-    }
-    
-}
+  let database=localStorage.getItem(users)
+  for (let index = 0; index < database.length; index++) {
+    if (database.length==emailinput && passwordInput) {
+      console.log('var');
 
-function createDatabase() {
-    let usersArrey=[]
-    localStorage.setItem('users',JSON.stringify(usersArrey))
+    }
+
+    else{
+      console.log('yoxdur');
+    }
+   
     
+  }
+  
 }
+getDatabase()
+
+
+
+// function createUser() {
+//     let user={
+//         id:Date.now(),
+//         email:email.value,
+//         password:inputType.value,
+//     };
+//     let database = getDatabase();
+//     database.push(user)
+//     localStorage.setItem('user',JSON.stringify(database))
+   
+// }
+
+
+// function getDatabase() {
+//     let database=JSON.parse(localStorage.getItem(database))
+//     if (database) {
+//         return database; 
+//     }
+//     else{
+//         createDatabase();
+//         let database=JSON.parse(localStorage.getItem(database))
+//         return database;
+//     }
+    
+// }
+
+// function createDatabase() {
+//     let usersArrey=[]
+//     localStorage.setItem('users',JSON.stringify(usersArrey))
+    
+// }
 
