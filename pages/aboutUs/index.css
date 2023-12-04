@@ -6,7 +6,8 @@
   justify-content: space-between;
 }
 .about-us-container .text-container {
-  padding: 88px 170px 88px 128px;
+  width: 100%;
+  padding: 88px 0 88px 128px;
 }
 .about-us-container .text-container h1 {
   margin-bottom: 40px;
@@ -53,4 +54,4 @@
 .about-us-container img {
   width: 541px;
   height: 728px;
-}/*# sourceMappingURL=index.css.map */
+}
