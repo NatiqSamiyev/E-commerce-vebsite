@@ -42,10 +42,6 @@
   display: flex;
   justify-content: space-between;
 }
-.login-container .form-container form label button {
-  border: none;
-  background: none;
-}
 .login-container .form-container form label .btn-1 {
   display: none;
 }

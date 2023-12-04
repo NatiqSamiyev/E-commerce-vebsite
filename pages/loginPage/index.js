@@ -4,8 +4,8 @@ let inputType = document.querySelector('input[type="password"]');
 let btn1 = document.querySelector(".btn-1");
 let btn2 = document.querySelector(".btn-2");
 let loginBtn = document.querySelector(".login");
-let emailinput=document.querySelector('.email-input')
-let passwordInput=querySelector('.password')
+let email=document.querySelector('.email-input')
+let password=document.querySelector('.password')
 
 btn2.addEventListener("click", checkBtn2);
 function checkBtn2() {
@@ -30,9 +30,9 @@ function submitForm(a) {
 }
 
 function getDatabase() {
-  let database=localStorage.getItem(users)
+  let database=localStorage.getItem('users')
   for (let index = 0; index < database.length; index++) {
-    if (database.length==emailinput && passwordInput) {
+    if (database[index].email==email.value && database[index].password==password.value) {
       console.log('var');
 
     }
@@ -45,7 +45,7 @@ function getDatabase() {
   }
   
 }
-getDatabase()
+
 
 
 
