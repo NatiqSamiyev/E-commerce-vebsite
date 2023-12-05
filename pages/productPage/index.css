@@ -19,10 +19,20 @@
 }
 .product-container form label {
   width: 100%;
+  /* Chrome, Safari, Edge, Opera */
+  /* Firefox */
 }
 .product-container form label input {
   width: 100%;
   height: 30px;
   border: none;
   outline: none;
-}/*# sourceMappingURL=index.css.map */
+}
+.product-container form label input::-webkit-outer-spin-button,
+.product-container form label input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.product-container form label input[type=number] {
+  -moz-appearance: textfield;
+}
