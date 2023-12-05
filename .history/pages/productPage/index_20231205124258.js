@@ -35,7 +35,7 @@ function checkProduct() {
 // mehsulun yaradilmasi
 function createProduct() {
   let product = {
-    img: imgUrl,
+    img: productImg.value,
     id: productId.value,
     name: productName.value,
     amount: productAmount.value,
@@ -67,16 +67,16 @@ function getDatabase() {
   }
 }
 
+
 // file oxuyucusu
-let imgUrl = "";
-productImg.addEventListener("change", (event) => {
-  // sekli fayla donderirik
-  const image = event.target.files[0];
-  //    fayli oxuyub url elde edirik
-  const reader = new FileReader();
-  reader.readAsDataURL(image);
-  reader.addEventListener("load", () => {
-    imgUrl = reader.result;
-    console.log(imgUrl);
-  });
-});
+let imgUrl = ''
+productImg.addEventListener('change',(event)=>{
+    const image = event.target.files[0]
+    
+   
+    const reader = new FileReader();
+    reader.readAsDataURL(image);
+    reader.addEventListener("load", () => {
+      imageFile = reader.result;
+    });
+})
