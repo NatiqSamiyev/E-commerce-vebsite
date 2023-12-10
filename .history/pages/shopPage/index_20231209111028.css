@@ -47,7 +47,8 @@
   margin-top: 40px;
   display: grid;
   grid-template-columns: 250px 250px 250px 250px;
-  column-gap: 135px;
+  -moz-column-gap: 135px;
+       column-gap: 135px;
   row-gap: 40px;
 }
 .shop-container .image-box .box-container {
@@ -136,4 +137,4 @@
   font-style: normal;
   font-weight: 600;
   line-height: 24px;
-}
+}/*# sourceMappingURL=index_20231209111028.css.map */
